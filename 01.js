@@ -1,13 +1,14 @@
 //objeto
-const suicidio = {
+const suicidas = {
     tinta : 'Vincent van Gogh',
     musica : 'Chester Bennington',
     cine : 'Tony Scott',
     letras : 'Virginia Woolf'
 }
-//agregando una nueva propiedad:
+//agregando una nueva propiedad al objeto
 suicidio.deporte = 'Dave Mirra';
 
+//objeto con un array anidado
 const enfermedadesMentales = {
   depresion: {
     nombre: "Depresión",
@@ -65,6 +66,6 @@ const enfermedadesMentales = {
   }
 };
 
-// Ejemplo de uso
-console.log(enfermedadesMentales.depresion.nombre); // "Depresión"
-console.log(enfermedadesMentales.ansiedad.sintomas); // Lista de síntomas de ansiedad
+
+console.log(enfermedadesMentales.depresion.nombre); // La salida es: "Depresión"
+console.log(enfermedadesMentales.ansiedad.sintomas); // La salida es: lista de síntomas de ansiedad
